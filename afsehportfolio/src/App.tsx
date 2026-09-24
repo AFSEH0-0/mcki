@@ -486,7 +486,7 @@ export default function App() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginBottom: "32px" }}>
             {[
               { icon: <IconPhone />, text: "+92 315 6783693", href: "tel:+923156783693" },
-              { icon: <IconMail />, text: "Afsehm53@gmail.com", href: "mailto:Afsehm53@gmail.com" },
+              { icon: <IconMail />, text: "Mcki.the.pentester@gmail.com", href: "mailto:Mcki.the.pentester@gmail.com" },
               { icon: <IconLocation />, text: "Canal Park, Gulberg, Lahore", href: null },
             ].map(({ icon, text, href }) => (
               <div key={text} style={{ display: "flex", alignItems: "center", gap: "7px" }}>
@@ -514,7 +514,7 @@ export default function App() {
             <a href="https://linkedin.com/in/afsehmuneer" target="_blank" rel="noopener noreferrer" className="btn-primary btn-green">
               <IconLinkedin /> LinkedIn
             </a>
-            <a href="https://afsehportfolio.vercel.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href="https://mckisportfolio.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-primary">
               <IconGlobe /> Portfolio
             </a>
           </div>
@@ -739,11 +739,11 @@ export default function App() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
             {/* Contact Cards */}
             {[
-              { icon: <IconMail />, label: "Email", value: "Afsehm53@gmail.com", href: "mailto:Afsehm53@gmail.com", color: "blue" },
+              { icon: <IconMail />, label: "Email", value: "Mcki.the.pentester@gmail.com", href: "mailto:Mcki.the.pentester@gmail.com", color: "blue" },
               { icon: <IconPhone />, label: "Phone", value: "+92 315 6783693", href: "tel:+923156783693", color: "blue" },
               { icon: <IconGithub />, label: "GitHub", value: "@AFSEH0-0", href: "https://github.com/AFSEH0-0", color: "green" },
               { icon: <IconLinkedin />, label: "LinkedIn", value: "@afsehmuneer", href: "https://linkedin.com/in/afsehmuneer", color: "green" },
-              { icon: <IconGlobe />, label: "Portfolio", value: "afsehportfolio.vercel.com", href: "https://afsehportfolio.vercel.com", color: "blue" },
+              { icon: <IconGlobe />, label: "Portfolio", value: "mckisportfolio.vercel.app", href: "https://mckisportfolio.vercel.app", color: "blue" },
               { icon: <IconLocation />, label: "Location", value: "Canal Park, Gulberg, Lahore", href: null, color: "blue" },
             ].map(({ icon, label, value, href, color }) => (
               <div
